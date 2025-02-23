@@ -1,5 +1,6 @@
 package com.opencart.tests.page;
 
+import net.serenitybdd.annotations.DefaultUrl;
 import net.serenitybdd.core.pages.PageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -8,6 +9,7 @@ import java.util.List;
 import static java.nio.file.Files.find;
 import static java.sql.DriverManager.getDriver;
 
+@DefaultUrl("http://opencart.abstracta.us/")
 public class CheckoutPage extends PageObject {
     public void agregarProductosAlCarrito() {
         List<WebElement> productos = getDriver().findElements(By.cssSelector(".product-layout .button-group button"));
