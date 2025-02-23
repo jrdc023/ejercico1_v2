@@ -8,8 +8,7 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>opencart-serenity</name>
-  <!-- FIXME change it to the project's website -->
-  <!--<url>http://www.example.com</url>-->
+  <url>http://opencart.abstracta.us/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
