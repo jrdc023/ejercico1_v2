@@ -160,7 +160,6 @@
           <version>3.6.1</version>
         </plugin>
 
-        <!-- Mio -->
         <plugin>
           <groupId>net.serenity-bdd.maven.plugins</groupId>
           <artifactId>serenity-maven-plugin</artifactId>
